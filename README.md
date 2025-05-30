@@ -1,27 +1,17 @@
-# MyAppClient
+**Moudyuti Ghosh (worked on the UI implementation using Angular) :**
+1. Implemented the different screens for the Admin and Users(Doctors/Nurses/Technician/etc)
+2. Implemented the **login page** to login using Email and Password details.
+3. Implemented the dashboard which contains
+       a. "My Schedule" button for the User
+       b. "Manage Shift","Add Staff","See All Staffs" and "Mark Attendance" buttons for the Admin
+4. The "**My Weekly Schedule**" Page for the User contains the schedule details and option to Accept / Reject a particular schedule.
+5. The "**Manage Shift**" Page for the Admin displays the Staff Schedule and provides the Option to Edit and Save any changes for schedule
+6. The "**Add Staff**" form allows the Admin to add new Staff details.
+7. The "**See All Staffs**" allows the Admin to see all staff details, sort based on Staff ID and Name and search for a particular staff using name.
+8. The "**Mark Attendance**" Page allows the Admin to mark a staff as Present or Absent.
+9. Applied **Route Guards** to ensure that authentication is done for different routes. **Have commented out the code since backend API integration using JWT token is pending.**
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.14.
+**Please find below a link to the video for all the screens.**
 
-## Development server
+https://github.com/user-attachments/assets/1e03011a-27a0-4aa6-b4fb-e689b112bfdf
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
